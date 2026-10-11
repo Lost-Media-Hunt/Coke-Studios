@@ -129,7 +129,7 @@ Look for files ending in `.cct`, `.dcr`, `.swf`, and anything with `[1]` in its 
 
 Pushing a tag such as `v1.0` makes GitHub build all three and publish them as a release (`.github/workflows/release.yml`).
 
-### Keeping the archive list current
+## Keeping the archive list current
 
 When the archive gains files, regenerate the fingerprints so the tool stops calling them new:
 
