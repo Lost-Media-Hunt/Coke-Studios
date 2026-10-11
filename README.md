@@ -129,12 +129,6 @@ Look for files ending in `.cct`, `.dcr`, `.swf`, and anything with `[1]` in its 
 
 Pushing a tag such as `v1.0` makes GitHub build all three and publish them as a release (`.github/workflows/release.yml`).
 
-### Before the first release
-
-The repository is `Lost-Media-Hunt/Coke-Studios`, already set in the two places that name it — `CCF_PROJECT_URL` in `src/finder.h` and `REPO` near the bottom of `docs/index.html`. To point the project somewhere else, change both.
-
-Turn on GitHub Pages for the `docs/` folder — that page is the project's website — and push a tag like `v1.0` to build the three downloads and publish them as the release the site's buttons link to.
-
 ### Keeping the archive list current
 
 When the archive gains files, regenerate the fingerprints so the tool stops calling them new:
