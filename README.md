@@ -101,7 +101,7 @@ Any new Shockwave file dated 2002–2004 is flagged as one of these.
 The **Infinite Jukebox** is not on this list: it was a music *player* that streamed third-party songs from FreshTracksMusic (later myTracks), an outside service — the furni, catalogue row and in-game interface all survive, and the songs were never Coca-Cola's files to lose.
 
 **Everything else**
-- **The V-ego colour palettes** (the `AvatarConfig` XML). The creator's colours are only known second-hand.
+- **Some V-ego styles' own colour palettes** (the `AvatarConfig` XML). The five main palettes survive — the website's `avatar_engine.swf` carries a copy — but a few hairstyles, shirts, pants and shoes had palettes of their own that only the server's file held.
 - **The Promo Poster's content** (`content/dynamicPosterContent.xml`).
 - **MyCoke screensavers** and other downloads. The tool searches installed screensavers (`.scr`).
 - **Screenshots**, especially from 2002–2004 and of the Rocawear clothes, of which almost no pictures survive.

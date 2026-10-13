@@ -74,7 +74,10 @@ static const struct {
     {"/audio/stream", "a Sports Challenge announcer line"},
     {"/popquiz/", "Pop Quiz, the original 2002 trivia game by GamesThatWork"},
     {"dynamicpostercontent", "the Promo Poster's content"},
-    {"avatarconfig", "the V-ego colour palettes (AvatarConfig)"},
+    /* The five row palettes survive, baked into the website's avatar_engine.swf
+     * (AvatarConstants._acolors); the subsets some styles used of their own
+     * (2, 3, 6, 7, 9, 10, 12, 13, 14) were only ever in this server file. */
+    {"avatarconfig", "the V-ego creator's colour file (AvatarConfig): some styles' own palettes are still missing"},
     {"publicstudios", "an older public room list (it may hold room descriptions that are lost)"},
     {"cc_interface", "another build of the interface cast (the archive's lacks Ray's Rooftop's navigator icon)"},
     {"savemix", "a saved music mix from the OddCast mixer"},
